@@ -87,6 +87,7 @@ header .contato a:hover {color: #969696; transition: 1s}
 .conteudo .modal .btn span{color:#000;font-weight:700;}
 .conteudo .modal .modal-header{justify-content:flex-end;border-bottom:0;}
 .conteudo .modal .modal-footer{border-top:0;padding-bottom:22px;}
+.conteudo .descricao {font-size: 13px;display: block;text-align: center; margin-bottom: 10px;color: #534e4e;"}
 .conteudo#ui-ux .galeria .card {display: block;padding-bottom: 10px;}
 .conteudo#ui-ux .galeria .card img,.conteudo .galeria .card img{width: 257px;height: 285px;}
 .conteudo#ui-ux .galeria .card img{margin-bottom:12px;}
