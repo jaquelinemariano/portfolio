@@ -1,0 +1,431 @@
+body {
+	background: #000 !important;
+	font-family: 'Halant', serif;
+}
+.cf:before, .cf:after {
+	content: "";
+	display: table
+}
+.cf:after {
+	clear: both;
+}
+.cf {
+*zoom:1
+}
+img {
+	max-width: 100%;
+}
+.modal-dialog {
+	max-width: 100%;
+	width: auto !important;
+	display: inline-block;
+}
+.modal {
+	text-align: center;
+}
+header {
+	background: #fff;
+	padding: 30px 0;
+	font-family: Halant;
+}
+.box-destaque {
+	background: #fff1d1;
+	padding: 19px;
+}
+header h1 {
+	text-align: left;
+	padding-left: 21px;
+}
+header h1 a {
+	color: #1d1d23;
+}
+header h1 a:hover {
+	text-decoration: none;
+	color: #1d1d23;
+}
+header h1 .jaqueline {
+	font-size: 27px;
+	font-style: italic;
+	display: block;
+	margin-top: 16px;
+}
+header h1 .designer {
+	font-size: 20px;
+	display: block;
+	font-style: italic;
+}
+header img {
+	width: 99px
+}
+header a {
+	color: #000
+}
+header a:hover {
+	color: #000
+}
+.conteudo-home {
+	padding: 102px 0;
+}
+header .contato {
+	float: right;
+	text-align: right;
+	margin: 15px 0;
+}
+header .container, .container.conteudo-home {
+	max-width: 837px !important;
+}
+.conteudo-home a {
+	color: #deac36;
+}
+.conteudo-home .galeria {
+	margin-right: -11px;
+	margin-left: -11px;
+}
+.conteudo-home .galeria .premiado {
+	position: absolute;
+	font-weight: 600;
+	background: #000000;
+	top: 8px;
+	height: 50px;
+	font-size: 12px;
+	bottom: 19px;
+	padding: 10px 21px;
+	color: #ffffff;
+	right: 11px;
+}
+.conteudo-home .galeria .premiado i {
+	font-size: 21px;
+	color: #ffb100;
+	top: 2px;
+	position: relative;
+}
+.conteudo-home .galeria .card {
+	background: none;
+	background: #f6f6f7;
+	border: 0;
+	margin-bottom: 33px;
+	min-height: 363px;
+}
+.conteudo-home .galeria.fila-primeira .card {
+	min-height: 605px;
+}
+.conteudo-home .galeria .card a:hover img {
+	filter: brightness(60%)
+}
+.conteudo-home .galeria .card:hover .modal-body img {
+	filter: brightness(100%);
+}
+.conteudo-home .galeria .card .modal-body img {
+	filter: brightness(100%);
+	box-shadow: 3px 6px 17px #0000005c;
+}
+.conteudo-home .galeria .card:hover .premiado {
+	opacity: 1000;
+}
+.conteudo-home .modal-footer {
+	border-top: 0;
+	padding-bottom: 22px;
+}
+.conteudo-home .galeria .card p {
+	margin: 12px 0 9px 0;
+	font-size: 15px;
+	color: #424452;
+	text-align: center;
+	font-weight: 400;
+	line-height: 17px;
+	padding: 0 12px 8px 12px;
+}
+.conteudo-home#ui-ux .galeria .card img {
+	margin-bottom: 12px;
+}
+.conteudo-home#ui-ux .galeria .card p {
+	margin: 0 0 12px 0;
+	font-size: 15px;
+	color: #424452;
+	text-align: center;
+	font-weight: 400;
+	line-height: 17px;
+	padding: 0 12px 0 12px;
+}
+.conteudo-home#ui-ux .galeria .modal-content {
+	padding: 0 10px 10px 10px;
+}
+.conteudo-home#ui-ux .galeria .modal-content p {
+	text-align: left;
+}
+.conteudo-home#ui-ux .galeria .modal-content ul {
+	padding: 5px 10px 15px 30px;
+}
+.conteudo-home .galeria .card ul {
+	margin-bottom: 8px;
+}
+.conteudo-home .galeria .card ul li {
+	font-family: Halant;
+	font-size: 15px;
+	color: #424452;
+	font-weight: 400;
+	margin-bottom: 4px;
+	text-align: left;
+	line-height: 17px;
+}
+.conteudo-home .galeria .card p a {
+	color: #b78b22;
+}
+.conteudo-home .galeria .card a:hover {
+	text-decoration: none;
+	color: #e0ad39;
+}
+.conteudo-home .galeria a img:hover {
+	cursor: pointer;
+	transition: 0.5s;
+}
+.conteudo-home a:hover {
+	color: #ab8301;
+	text-decoration: none;
+}
+.conteudo-home a.voltar {
+	color: #c3c3c3;
+	text-transform: uppercase;
+	font-family: Halant;
+	font-size: 11px;
+	letter-spacing: 0.9px;
+	margin-top: -45px;
+	margin-bottom: 31px;
+	display: block;
+}
+.conteudo-home a.voltar:hover {
+	color: #787b86;
+	transition: 0.1s;
+}
+.conteudo-home a .card {
+	background: #1d1d23;
+	color: #f6f6f9;
+	border-bottom: 1px solid #d09117;
+	font-family: halant;
+}
+.conteudo-home a .card:hover {
+	background: #0c0c0e;
+	transition: 0.5s;
+	border-bottom: 1px solid #51525a;
+}
+.conteudo-home p {
+	color: #e6e6e6;
+	font-weight: 300;
+	font-family: Halant;
+	font-size: 18px;
+	margin-bottom: 38px;
+}
+.conteudo-home p strong {
+	font-weight: 600;
+}
+.conteudo-home h1.nome {
+	color: #fff;
+	margin-bottom: 90px;
+	line-height: 28px;
+	font-weight: 300;
+	font-size: 48px;
+}
+.conteudo-home h1.nome .jaqueline {
+	border-bottom: solid 1px #66666f;
+	padding-bottom: 30px;
+	font-family: Halant;
+	display: inline-block;
+	font-style: italic;
+	font-weight: 300;
+}
+.conteudo-home h1.nome .designer {
+	font-weight: 300;
+	font-size: 19px;
+	letter-spacing: 2px;
+	font-style: italic;
+	color: #aeafb3;
+}
+.conteudo-home h2 {
+	font-style: italic;
+	color: #dfdfe0;
+	font-weight: 300;
+	border-bottom: 1px solid #24242b;
+	padding-bottom: 20px;
+	font-size: 30px;
+	font-family: Halant;
+	margin-bottom: 52px;
+}
+.conteudo-home h2 a {
+	color: #dfdfe0;
+}
+.conteudo-home h2 a:hover {
+	color: #fff;
+	border-bottom: 1px dotted #424242;
+}
+.conteudo-home.pag-inicial h3 {
+	font-style: italic;
+	text-align: center;
+	color: #dfe2e6;
+	font-weight: 700;
+	border-bottom: 0;
+	font-size: 21px;
+	font-family: Halant;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 6px;
+}
+.conteudo-home h3 {
+	font-style: italic;
+	color: #a0a0a5;
+	font-weight: 300;
+	border-bottom: 1px solid #24242b;
+	padding-bottom: 20px;
+	font-size: 24px;
+	font-family: Halant;
+	margin-top: -34px;
+	margin-bottom: 52px;
+}
+.row:before, .row:after {
+	display: none !important;
+}
+.row:before, .row:after {
+	width: 0px;
+	height: 0px;
+}
+.conteudo-home#ui-ux h4 {
+	padding: 15px 8px 12px 8px;
+	margin: 0;
+	font-size: 17px;
+	text-align: center;
+	font-family: Halant;
+}
+.conteudo-home .card {
+	border-radius: 0;
+}
+.conteudo-home .card-body {
+	width: 100%;
+	border-radius: 0;
+	text-align: center;
+	display: table;
+	height: 311px;
+}
+.conteudo-home .btn {
+	font-weight: 600;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-size: 17px;
+	padding-right: 0;
+	padding-left: 0;
+	color: #eaa507;
+	border-bottom: 3px solid #ffbe2a;
+}
+.conteudo-home .galeria .btn {
+	font-weight: 600;
+	border-radius: 0;
+	font-size: 13px;
+	background: #000000;
+	display: inline-block;
+	margin-top: 4px;
+	width: 100%;
+	padding: 6px 9px;
+	border: 1px dotted #ffcd5a !important;
+	text-transform: none !important;
+	color: #ffc033 !important;
+}
+.conteudo-home .modal p {
+	font-weight: 300;
+	color: black;
+	text-align: left;
+}
+.conteudo-home .modal .btn {
+	font-weight: 300;
+	border-radius: 0;
+	font-size: 16px;
+	background: #ffc239;
+	width: inherit;
+	margin-top: 10px;
+	display: inline-block;
+	color: #1b1200 !important;
+	border: 0;
+	letter-spacing: 0px;
+	padding: 6px 19px;
+	font-family: Halant;
+	text-transform: initial;
+}
+.conteudo-home .modal .btn span {
+	color: #000;
+	font-weight: 700;
+}
+.conteudo-home .modal .btn:hover {
+	background: #000000;
+	color: #fff !important;
+}
+.conteudo-home .modal .btn:hover span {
+	color: #fff !important;
+}
+.conteudo-home .btn:hover {
+	color: #fff !important;
+	background: #000000;
+}
+.conteudo-home .card-body h5 {
+	display: table-cell;
+	vertical-align: middle;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 21px;
+}
+.conteudo-home .modal-header {
+	justify-content: flex-end;
+	border-bottom: 0;
+}
+.conteudo-home .modal-content {
+	border-radius: 0;
+	background-color: white;
+}
+
+
+@media screen and (max-width:830px) {
+#goTopSpan {
+    margin-right: 3px;
+}
+}
+@media screen and (max-width:603px) {
+iframe {
+	width: 100% !important;
+}
+}
+
+@media screen and (max-width:575px) {
+.conteudo-home#ui-ux .galeria img {
+	max-width: fit-content;
+	margin: 0 auto;
+	display: block;
+}
+.conteudo-home .galeria img {
+	max-width: fit-content;
+	margin: 0 auto;
+	margin-top: 25px;
+	display: block;
+}
+.conteudo-home .galeria .card .modal-body img {
+	max-width: 100% !important;
+}
+.conteudo-home#ui-ux .galeria .card p {
+	text-align: left;
+}
+}
+
+@media screen and (max-width:564px) {
+header h1,  header .container a img,  .contato {
+	text-align: center !important;
+	display: block;
+	float: none !important;
+}
+header h1,  header .container a img {
+	margin: 0 auto;
+}
+header h1,  .contato {
+	width: 100%;
+}
+.contato {
+	padding-top: 90px;
+}
+.conteudo-home {
+	padding: 56px 0;
+}
+}
