@@ -1,4 +1,4 @@
-body{background: #fff !important;font-family:'Halant', serif;}
+body{background: #fff !important;font-family:'Halant', serif;color:#c7bfbf !important}
 img{max-width:100%;}
 header{background: #131314;padding:30px 0;font-family:Halant;}
 header img{width:99px;/* color: red; */}
@@ -11,6 +11,18 @@ header .cor-logo {filter: invert(100%) sepia(50%) saturate(0%) hue-rotate(273deg
 header .contato{font-family: "Inter Tight", sans-serif;float:right;text-align:right;margin:15px 0;}
 header .container, .container.conteudo{max-width:837px !important;}
 header .contato a:hover {color: #969696; transition: 1s}
+
+footer{background: #131314;padding:30px 0;font-family:Halant;}
+footer img{width:99px;/* color: red; */}
+footer a{color: #f2f1f7;font-family: "Alegreya", serifsans-serif;font-weight: 300;font-size: 17px;}
+footer a:hover{color:#969696;  transition: 1s; text-decoration:none;}
+footer h1{text-align:left;}
+footer h1 .jaqueline{font-size: 24px;/* font-style:italic; */display:block;margin-top: 12px;}
+footer h1 .video-editor{font-size: 17px;margin-top: 9px;display:block;/* font-style:italic; */}
+footer .cor-logo {filter: invert(100%) sepia(50%) saturate(0%) hue-rotate(273deg) brightness(107%) contrast(98%);}
+footer .contato{font-family: "Inter Tight", sans-serif;float:right;text-align:right;}
+footer .container, .container.conteudo{max-width:837px !important;}
+footer .contato a:hover {color: #969696; transition: 1s}
 /**, ::after, ::before{box-sizing:inherit !important;} */
 .cf:before, .cf:after{content:"";display:table}
 .cf:after{clear:both;}
@@ -97,7 +109,7 @@ header .contato a:hover {color: #969696; transition: 1s}
 .conteudo#ui-ux .galeria .modal-content ul{padding:5px 10px 15px 30px;}
 .conteudo#ui-ux .box-destaque h4{font-size:24px;margin-bottom:22px;font-family:Halant;color:#7d5c2e;}
 .conteudo#ui-ux .col-sm h4{padding:15px 8px 12px 8px;margin:0;font-size:17px;text-align:center;font-family:Halant;}
-#goTopSpan {color: #939393;}
+#goTopSpan {color: #8f8f8f !important;}
 @media screen and (max-width:830px){
 #goTopSpan{margin-right:22px;padding:10px 13px;background:black;opacity:0.9;font-size:22px !important;}
 }
